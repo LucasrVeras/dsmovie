@@ -17,6 +17,7 @@ public class Score {
 	
 	@EmbeddedId
 	private ScorePK id = new ScorePK();
+	
 	private Double value;
 	
 	public void setMovie(Movie movie) {
